@@ -1,0 +1,87 @@
+header {
+background-color: #FFFFFF;
+color: #2E2F42;
+}
+button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Roboto;
+    font-weight:500;
+    font-size:16px;
+    line-height:24px;
+    letter-spacing:4%;   
+}
+button:hover {
+    background-color:#404BBF;
+}
+.hero {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+    font-weight:700;
+    font-size:56px;
+    line-height:60px;
+    letter-spacing:2%;
+}
+.body {
+    background: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    color:#434445;
+}
+.page-link .link {
+    text-decoration: none;
+    font-weight:500;
+    font-size:16px;
+    line-height:24px;
+    letter-spacing:2%;
+    color:#2E2F42
+
+}
+.page-link .link:hover {
+    color:#404BBF;
+}
+.page-link .link:active {
+    text-decoration: underline;
+    color:#404BBF;
+}
+.social-link .link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color:#434455;
+
+}
+.social-link .link:hover {
+    color:#404BBF;
+}
+.section-1 {
+    background-color: #FFFFFF;
+}
+.section-2 {
+    background-color: #F4F4FD;
+}
+.footer {
+    background-color: #2E2F42;
+    color:#F4F4FD;
+    text-decoration: none;
+}
+.logo {
+    text-decoration: none;
+    color:#2E2F42;
+}
+.subtitle {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+.text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
