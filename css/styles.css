@@ -30,8 +30,9 @@ button:focus {
     background-color: #2E2F42;
     color: #FFFFFF;
     font-weight:700;
-    font-size:56px;
-    line-height:60px;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
 }
 .body {
@@ -54,6 +55,9 @@ button:focus {
 .page-link .link:active {
     text-decoration: underline;
     color: #404BBF;
+}
+.page-link .link:focus {
+    color: #404bbf;
 }
 .address .link {
     text-decoration: none;
@@ -96,6 +100,7 @@ button:focus {
 p {
     letter-spacing: 0.02em;
     color: #434455;
+    line-height: 1.5;
 }
 .footer {
     background-color: #2E2F42;
@@ -110,11 +115,11 @@ p {
 }
 .logo {
     text-decoration: none;
-    color: #2E2F42; 
+    color: #4d5ae5 
 }
 .footer-logo {
     text-decoration: none;
-    color: #F4F4FD;
+    color: #4d5ae5;
 }
 .subtitle {
     font-family: Roboto;
@@ -138,4 +143,5 @@ p {
 }
 .span {
 color: #2E2F42;
+color: #f4f4fd;
 }
