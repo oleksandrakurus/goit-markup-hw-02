@@ -26,15 +26,7 @@ button:hover {
 button:focus {
     background-color: #404BBF;
 }
-.hero {
-    background-color: #2E2F42;
-    color: #FFFFFF;
-    font-weight:700;
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-}
+
 .body {
     background: #FFFFFF;
     font-family: 'Roboto', sans-serif;
@@ -76,7 +68,8 @@ button:focus {
     color: #404bbf;
 }
 .section-1 {
-    background-color: #FFFFFF;
+    background-color: #2E2F42;
+    color: #FFFFFF;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -151,4 +144,11 @@ p {
 .span {
 color: #2E2F42;
 color: #f4f4fd;
+}
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
