@@ -51,7 +51,7 @@ button:focus {
 .page-link .link:focus {
     color: #404bbf;
 }
-.address .link {
+.address {
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
