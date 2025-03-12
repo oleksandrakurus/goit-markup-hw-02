@@ -1,15 +1,26 @@
 header {
 background-color: #FFFFFF;
 color: #2E2F42;
-font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-text-transform: uppercase;
+}
+.address {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    font-style: normal;
 
 }
-button {
+.address .link:hover {
+    color: #404BBF;
+}
+.address .link:focus{
+    color: #404bbf;
+}
+.order-button {
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
@@ -20,10 +31,10 @@ button {
     letter-spacing: 0.04em;
     font-family: "Roboto", sans-serif;   
 }
-button:hover {
+.order-button:hover {
     background-color: #404BBF;
 }
-button:focus {
+.order-button:focus {
     background-color: #404BBF;
 }
 
@@ -51,23 +62,7 @@ button:focus {
 .page-link .link:focus {
     color: #404bbf;
 }
-.address {
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color:#434455;
-    font-style: normal;
-
-}
-.address .link:hover {
-    color: #404BBF;
-}
-.address .link:focus{
-    color: #404bbf;
-}
-.section-1 {
+.first-section {
     background-color: #2E2F42;
     color: #FFFFFF;
     font-size: 56px;
@@ -76,8 +71,7 @@ button:focus {
     letter-spacing: 0.02em;
     
 }
-.section-2 {
-    background-color: #F4F4FD;
+.second-section {
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-weight: 500;
@@ -87,7 +81,7 @@ button:focus {
     color: #2e2f42;
 
 }
-.section-3 {
+.third-section {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -95,6 +89,15 @@ button:focus {
     text-transform: capitalize;
     color: #2e2f42;
     background-color: #F4F4FD;
+}
+.fourth-section {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+
 }
 .title {
     font-size: 36px;
@@ -104,15 +107,6 @@ button:focus {
 .cards {
     background-color: #FFFFFF;
 }
-.section-4 {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-
-}
 p {
     letter-spacing: 0.02em;
     color: #434455;
@@ -120,18 +114,13 @@ p {
 }
 .footer {
     background-color: #2E2F42;
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #F4F4FD;
 }
 .logo {
     text-decoration: none;
-    color: #4d5ae5 
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
 }
 .footer-logo {
     text-decoration: none;
@@ -167,4 +156,14 @@ color: #f4f4fd;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+}
+.link {
+    color: #434455;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.span {
+    color: #f4f4fd;
 }
